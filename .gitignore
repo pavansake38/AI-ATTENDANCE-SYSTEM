@@ -11,3 +11,12 @@ venv/
 
 
 dist/
+
+venv/
+venv311/
+venv_old/
+.venv/
+__pycache__/
+.env
+.env.*
+.streamlit/secrets.toml
