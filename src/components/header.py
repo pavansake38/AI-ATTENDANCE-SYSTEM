@@ -2,14 +2,26 @@ import streamlit as st
 
 
 def header_home():
-    logo_url="https://attendanceradar.com/wp-content/uploads/2024/06/DALL%C2%B7E-2024-06-28-19.10.18-A-university-classroom-where-a-teacher-is-taking-attendance.-The-teacher-stands-at-the-front-of-the-class-with-a-clipboard-or-tablet-checking-off-nam-1024x585.webp"
+
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
     st.markdown(f"""
-        <div style='display:flex;flex-direction:column;align-items:centre;justify-content:centre;margin-bottom:30px'>
-            <img src='{logo_url}' style='height:300px;width:300px;border-radius: 20px;'/>
-            <h1 style='text-align:centre;color:#E0E3FF'>Snap<br/> Class</h1>
+        <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; margin-bottom:30px; margin-top:30px">
+            <img src='{logo_url}' style='height:100px;' />
+            <h1 style='text-align:center; color:#E0E3FF'>VERI<br/>CLASS</h1>
+        </div>   
+                
+                """, unsafe_allow_html=True)
 
-        </div>
 
+def header_dashboard():
 
-
-""",unsafe_allow_html=True)
+    logo_url = "https://i.ibb.co/YTYGn5qV/logo.png"
+    
+    st.markdown(f"""
+        <div style="display:flex; align-items:center; justify-content:center; gap:10px">
+            <img src='{logo_url}' style='height:85px;' />
+            <h2 style='text-align:left; color:#5865F2'>VERI<br/>CLASS</h1>
+        </div>   
+                
+                """, unsafe_allow_html=True)
